@@ -43,12 +43,12 @@ import com.certidevs.entities.*;
             productoRepository.save(manzana);
             productoRepository.save(yogurt);
             productoRepository.save(avena);
-            productoRepository.save(macarrones);*/
+            productoRepository.save(macarrones);
+
+    //También podemos hacerlo con un saveAll y guardar varios productos a la vez
+    productoRepository.saveAll(List.of(manzana, yogurt, avena, macarrones));*/
 
         }
-
-
-
 
     }
 
